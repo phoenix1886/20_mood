@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Настроение</title>
-  <script id="quotes_json" type="application/json">
-    [
-      {
-        "phrase": "Кукурузные хлопья - теперь без асбеста!",
-        "signature": "©Неизвестный маркетолог"
-      },
-      {
-        "phrase": "Собираюсь жить вечно, пока всё идёт нормально"
-      },
-      {
-        "phrase": "Вывеска над кафе — '\u003cМы открылись\u003e'. Что-то не так. Где же '\u003c/Мы открылись\u003e'?"
-      },
-      {
-        "phrase": "Если ты будешь усердно работать по 8 часов в день, то обязательно станешь боссом и начнешь работать по 12"
-      }
-    ]
-  </script>
+  <meta charset="UTF-8">
+  <title>Сайт веселого настроения</title>
+  <link href="CSS/main.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
+<!--HEADER-->
+<header>
+  <h1>Сайт веселого настроения</h1>
+  <p>Искроментый юмор, приколы и мемы, что не дадут вам заскучать!</p>
+  <p>Берегите свои животики!</p>
+</header>
+
+<main>
+  <img src="https://pbs.twimg.com/profile_images/547393362379030528/oIb1pAH5.png" alt="упоротый лис">
+  <div id="joke-div">
+
+  </div>
+  <div id="buttons-div">
+    <button id="more-jokes-btn">Хочу еще!</button>
+    <button id="twitter-btn">Twitter</button>
+  </div>
+</main>
+
+
+<footer>
+  <a id="email" href="mailto:maslovks@gmail.com?">Email Me</a>
+  <span id="location">Moscow, 2017</span>
+</footer>
+
+<!--JQUERY-->
+<script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+<!---->
+
+<script src="JS/main.js"></script>
 </body>
 </html>

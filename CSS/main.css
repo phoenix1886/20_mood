@@ -1,0 +1,88 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color: darkblue;
+}
+
+header {
+  text-align: center;
+  border-bottom: solid 5px cornflowerblue;
+  padding: 50px 0 10px 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: aliceblue;
+  color: cornflowerblue;
+}
+
+header h1 {
+  font-size: 62px;
+  margin: 0;
+}
+
+main img {
+  display: block;
+  margin: 25px auto;
+  max-height: 150px;
+}
+
+footer {
+  border-top: solid 1px darkgrey;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: aliceblue;
+  color: cornflowerblue;
+  padding: 50px 15px 50px 15px;
+  font-size: 22px;
+}
+
+#location {
+  float: right;;
+  margin-right: 20%;
+}
+
+#email {
+  margin-left: 20%;
+  color: inherit;
+}
+
+#email:hover {
+  color: darkblue;
+}
+
+#joke-div {
+  min-height: 40px;
+  width: 400px;
+  border: dotted 1px lightgrey;
+  margin: 25px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+#buttons-div {
+  max-width: 40%;
+  margin: 15px auto;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  margin: 15px 25px;
+  border: solid grey 1px;
+  border-radius: 10px;
+  font-size: 22px;
+  color: cornflowerblue;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:active {
+  color: darkblue;
+}
+
+a {
+  overflow: hidden;
+}
